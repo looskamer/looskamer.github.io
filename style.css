@@ -1,0 +1,60 @@
+body{
+	background-color:#79E9;   
+}
+.button_login{
+	background-color:#1624FB; 
+	border-color:#1624FB;
+}
+.a_signup{
+	text-decoration: none;
+	color:#F7F7FA;
+	font-weight:900;
+}
+.a_back{
+	text-decoration: none;
+}
+.a_login{
+	text-decoration: none;
+	color:#F7F7FA;
+	font-weight:900;
+}
+#p_email{
+	color:#68686B;
+	opacity:0.9; 
+}
+#p_password{
+	color:#68686B;
+	opacity:0.9; 
+}
+.form_login{
+	margin-left:40%;
+	margin-top:15%;  
+	  
+}
+.button_signup{
+	color:red;
+	background-color:#04B404; 
+	border-color:#04B404;
+	box-shadow:none;
+	border-radius:10%;
+	margin-left:7%;
+}
+.button_a_b{
+    background-color:#02EBEB; 
+	border-color:#02EBEB;
+	
+}
+.a_b{
+	text-decoration: none;
+	color:#F7F7FA;
+	font-weight:600;
+}
+.block_signup{
+    margin-left:44%;
+    margin-top:10%;
+}
+h1{
+	margin-left:40%;
+}
+
+
