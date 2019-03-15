@@ -1,5 +1,5 @@
 <?php 
-  require "conecct.html";
+  $_POST == require "conecct.html"
 ?>
 <?php
   $data = $_POST;
