@@ -36,7 +36,7 @@
    fail = "Вы не ввели свое имя";
   else if (password == "") 
    fail = "Вы не ввели пароль";
-  else if (password == RePassword) 
+  else if (password != RePassword) 
    fail = "Пароли не совпадают";
   else if (state == "")
    fail = "Укажите пол"
