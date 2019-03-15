@@ -1,3 +1,6 @@
+<?php 
+  require "conecct.html"
+?>
 <?php
   $data = $_POST;
   if(isset($data['do_login']))
