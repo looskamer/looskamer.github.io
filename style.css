@@ -92,7 +92,18 @@ background: linear-gradient(to left, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Fi
  text-decoration: none;
  text-transform:uppercase;
  transition: all 0.3s ease;
+ border: 1px solid #c7c8ca;
+ width:120px; 
 }
+.a_begin:hover{
+	background: #E0EAFC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ color: #000000;
+ box-shadow: 1px 5px 10px -5px black;
+ transition: all 0.3s ease;
+}
+
 
 
 
