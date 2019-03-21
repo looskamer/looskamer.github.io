@@ -93,7 +93,7 @@ background: linear-gradient(to left, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Fi
  text-transform:uppercase;
  transition: all 0.3s ease;
  border: 1px solid #c7c8ca;
- width:120px; 
+ width:200px; 
 }
 .a_begin:hover{
 	background: #E0EAFC;  /* fallback for old browsers */
