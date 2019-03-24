@@ -1,13 +1,42 @@
+
+body{
+	height:1200px;
+	
+}
 header{
- margin-top:80px;
+	height:100px;  
+	position:relative ;
+	top:30%;
+	float:right; 
+
+
+	
  font-family: Cuprum, Arial, Helvetica, sans-serif;
+  
+
+}
+.top {
+position:relative; 
+height:200px;  
+background-image:url(img/wall.jpg) ;
+box-shadow:1px 11px 20px 0;
+box-shadow-color:blue;  
+background-position:bottom center; 
+	
+}
+.footer {
+	height:100%;  
 }
 .dws-menu *{
- margin: 0;
- padding: 0;
+	position:static;
+	margin:0;
+	padding:0;
+	border:0;  
+	
 }
+
 .dws-menu ul,
-.dws-menu ol{
+.dws-menu li{
  list-style: none;
 }
 .dws-menu > ul{
@@ -23,12 +52,6 @@ header{
 }
 .dws-menu > ul li:last-child{
  border-right: 1px solid #babbbd;
-}
-.dws-menu > ul li > a i.fa{
- position: absolute;
- top: 15px;
- left: 12px;
- font-size: 18px;
 }
 .dws-menu > ul li a{
  display: block;
@@ -58,55 +81,146 @@ background: linear-gradient(to left, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Fi
 /*sub menu*/
 .dws-menu li ul{
  position: absolute;
- min-width: 150px;
+ min-width:150px;
  display: none;
 }
-.dws-menu li > ul li{
+div.dws-menu li > ul li{
  border: 1px solid #c7c8ca;
 }
-.dws-menu li > ul li a{
+div.dws-menu li > ul li a{
  padding: 10px;
  text-transform: none;
  background: #e4e4e5;
 }
-.dws-menu li > ul li ul{
+div.dws-menu li > ul li ul{
  position: absolute;
  right: -150px;
  top: 0;
 }
-.dws-menu li:hover > ul{
+.dws-menu  li:hover > ul{
+ display: block; 
+}
+
+*{
+	margin:0px; 
+}
+h3{
+	font-family:Comic Sans MS, Comic Sans, cursive;
+	color:blue;
+	font-size:60px;
+	position: relative;
+	width: 600px;
+	left:18%;
+	top:5%;
+	text-align:center;
+
+
+
+	 
+}
+.Introduction{
+	position: relative;
+	height:1200px;
+	width:1100px; 
+	left:11%; 
+
+}
+
+.conteiner_footer{
+	position: relative;
+	margin: 0;
+	height: 1200px;
+	width:100%;	
+}
+.text_1{
+	text-align:center; 
+	font-size: 24px;
+	width:700px;
+	height: 200px;
+	margin-left:13%; 
+	color:blue;
+	font-family:Comic Sans MS, Comic Sans, cursive;
+}
+.language{
+	position: relative;
+	color: blue;
+	font-weight: 600;
+	font-family: Play,sans-serif;
+	float:right;
+	top:10px;
+}
+.a_language{
+	text-decoration: none;
+}
+.language *{
+	position:static;
+	margin:0;
+	padding:0;
+	border:0;  
+	
+}
+
+.language  ul,
+.language  li{
+ list-style: none;
+}
+.language  > ul{
+ display: flex;
+ justify-content: center;
+}
+.language  > ul li{
+ position: relative;
+ border-right: 1px solid #c7c8ca;
+}
+
+.language  > ul li a{
  display: block;
-}
-.a_begin{
-	 display: block;
- /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9c9c9+0,f6f6f6+2,c4c5c7+98,757577+100;Custom+3 */
- background: rgb(201,201,201); /* Old browsers */
- background: -moz-linear-gradient(top,  rgba(201,201,201,1) 0%, rgba(246,246,246,1) 2%, rgba(196,197,199,1) 98%, rgba(117,117,119,1) 100%); /* FF3.6-15 */
- background: -webkit-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* Chrome10-25,Safari5.1-6 */
- background: linear-gradient(to bottom,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#757577',GradientType=0 ); /* IE6-9 */
 
- padding: 15px;
+  border:1px solid #A72ADA;
+  border-radius:10px;  
+ padding: 10px 10px 10px 10px;
  font-size: 14px;
- color: #000000;
  text-decoration: none;
- text-transform:uppercase;
  transition: all 0.3s ease;
- border: 1px solid #c7c8ca;
- width:30%; 
 }
-.a_begin:hover{
-	background: #E0EAFC;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- color: #000000;
- box-shadow: 1px 5px 10px -5px black;
+.language li a:hover{
  transition: all 0.3s ease;
 }
 
+/*sub menu*/
+.language  li ul{
+ position: absolute;
+ min-width:90px;
+ display: none;
+}
+div.language  li > ul li{
+ 
+}
+div.language li > ul li a{
+ padding: 10px;
+ text-transform: none; 
+     display: block;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    padding: 5px 8px;
+    margin: 5px;
+    font-size: 14px;
+    border-radius: 2px;
+    color:#A72ADA;
+    background: #f0f0f0;
+    text-align: center;
 
-
-
-
-
-
+}
+div.language  li > ul li ul{
+ position: absolute;
+ right: -150px;
+ top: 0;
+}
+.language   li:hover > ul{
+ display: block; 
+}
+.a_laguagen{
+      font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
