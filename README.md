@@ -5,7 +5,7 @@
   <link rel="shortcut icon" href="icon/internet.png" type="image/png">
  <title>Мій Сайт</title>
 </head>
-<body>
+<body class="md">
 	 <a href="Home page.html" class="a_begin">Перейти на сайт</a>
    
 </body>
