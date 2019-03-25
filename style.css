@@ -6,7 +6,7 @@ body{
 header{
 	height:100px;  
 	position:relative ;
-	top:30%;
+	top:5%;
 	float:right; 
 
 
@@ -108,9 +108,7 @@ h3{
 	font-family:Comic Sans MS, Comic Sans, cursive;
 	color:blue;
 	font-size:60px;
-	position: relative;
-	width: 600px;
-	left:18%;
+	width:800px;
 	top:5%;
 	text-align:center;
 
@@ -121,8 +119,10 @@ h3{
 .Introduction{
 	position: relative;
 	height:1200px;
-	width:1100px; 
-	left:11%; 
+	width:900px; 
+	left:13%; 
+	bottom:64%;
+
 
 }
 
@@ -137,7 +137,7 @@ h3{
 	font-size: 24px;
 	width:700px;
 	height: 200px;
-	margin-left:13%; 
+	margin-left:5%; 
 	color:blue;
 	font-family:Comic Sans MS, Comic Sans, cursive;
 }
@@ -223,4 +223,65 @@ div.language  li > ul li ul{
       font-size: 18px;
     font-weight: 700;
     cursor: pointer;
+}
+.text_2{
+	height: 200px;
+	width: 700px;
+	margin-left:13%; 
+	 background-color:#CEF6EC;
+    border: 2px solid #0040FF;
+    border-radius: 3px;
+ padding: 32px;
+}
+.a_text_2{
+text-align: center;
+ font-family: Play,sans-serif;
+ color:black;
+ font-size: 24px;
+ text-transform: uppercase;  
+}
+.text_3{
+	margin-top:100px; 
+}
+.conteiner_footer{
+
+}
+.left_block{
+	 display:block;
+  flex-flow: row nowrap;
+	position: relative;
+	width: 198px;
+	height: 768px;
+	top:20px;
+	 background-color:#CEF6EC;
+
+    border: 2px solid #0040FF;
+    border-radius: 3px;
+    left:6px;
+    border-te: 
+}
+.p_left_block_1{
+	font-family: Play,sans-serif;
+	color:black;
+
+	position:relative;
+}
+.right_block{
+	position: relative;
+	float:left;
+	width: 198px;
+	height: 768px;
+	bottom:62.7%;
+	left:84%;
+	 background-color:#CEF6EC;
+
+    border: 2px solid #0040FF;
+    border-radius: 3px;
+}
+.conteiner_footer *{
+	position: relative;
+}
+.h{
+	text-align: center;
+	text-transform:uppercase;
 }
