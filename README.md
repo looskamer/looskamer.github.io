@@ -5,6 +5,6 @@
  <title>Мій Сайт</title>
 </head>
 <body class="md">
-	 <a href="Home page.html" class="a_begin">Перейти на сайт</a>
+	 <a href="home page.html" class="a_begin">Перейти на сайт</a>
    
 </body>
