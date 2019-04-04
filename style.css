@@ -335,3 +335,9 @@ border-top:1px solid  #0040FF;
 padding: 10px;
 text-decoration: none;
 }
+@media (max-width:768px){
+  .Introduction{
+   width: 600px;
+   
+  }
+}}
